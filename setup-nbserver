@@ -20,7 +20,7 @@ echo -e "\n\n\n\n\n\n\n" | openssl req -x509 -nodes -days 3650 -newkey rsa:2048 
 
 # Password for your IPython notebooks
 echo "Enter a (strong) password that you will use to connect to remote IPython notebooks."
-PASS=$(python -c 'from IPython.lib import passwd; print passwd()')
+PASS=$(python -c 'from IPython.lib import passwd; print(passwd())')
 
 # Generate the config file
 cat > jupyter_notebook_config.py <<-EOM
