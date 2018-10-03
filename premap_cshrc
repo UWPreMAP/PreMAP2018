@@ -2,6 +2,12 @@
 #set path = ($path /bin /usr/bin /usr/X11R6/bin /usr/local/bin /usr/sbin /astro/apps6/bin )
 #set path = ($path .) # Always put dot last
 
+#Set reasonable Linux path from Toby's ASTR300 .cshrc
+#set path = (/bin /usr/bin /usr/X11R6/bin /usr/local/bin /usr/sbin)
+#set path = ($path /astro/apps6/bin)
+#set path = ($path ~/bin)
+#set path = (/astro/classes/Astro_300/miniconda/bin $path)
+set path = ($path .) # Always put dot last
 
 # IDL STUFF #
 setenv IDL_DIR /usr/local/opt/itt/idl
