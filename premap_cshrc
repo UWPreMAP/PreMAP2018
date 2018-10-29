@@ -20,7 +20,7 @@ setenv IDL_STARTUP $HOME/idl/idl_startup.pro # runs these routines at startup
 setenv PATH "/astro/apps6/opt/anaconda/envs/py3/bin:/astro/apps6/bin/:"$PATH
 
 # For running remote Jupyter notebooks
-alias notebook "set path = ( /astro/apps6/opt/anaconda/envs/py3/bin $path ) ; jupyter-profile-nbserver/start"
+alias notebook "set path = ( /astro/apps6/opt/anaconda/envs/py3/bin $path ) ; ~/jupyter-profile-nbserver/start"
 
 ############## Personal Settings ##############
 
